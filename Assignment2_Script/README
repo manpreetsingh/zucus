@@ -1,0 +1,7 @@
+This script can be use to run the commands remotely on Multiple server simulanenously
+
+Before running this script, please keep the following this in mind:
+1) Make sure you have created a user on all the remote hosts
+2) You have created user with public/private key for passwordless connection
+3) Run the "ssh-agent" on the host machine and add the key using "ssh-add" command
+4) Create a hostname file with name/IPs of all the hosts on which you want to run the command seprated by comma
